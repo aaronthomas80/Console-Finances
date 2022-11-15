@@ -95,3 +95,9 @@ console.log('Total Months: ' + NumOfMonths)
 var profitLoss = finances.reduce((a,b,c,d ) => b + d, 0) 
 console.log(profitLoss)
 
+highestProfit = Math.max(finances)
+greatestLoss = Math.min(finances)
+
+console.log('Greatest Increase in Profits: ' + highestProfit)
+console.log('Greatest Decrease in Profits: ' + greatestLoss)
+
